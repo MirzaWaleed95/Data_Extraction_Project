@@ -88,16 +88,22 @@ In the search of better approach of this problem, we have decided to use adaptiv
 ## Notebook
 For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
 
-[Notebooks](https://github.com/MirzaWaleed95/Data_Extraction_Project/tree/main/backend/notebooks).
+[Notebooks](https://github.com/MirzaWaleed95/Data_Extraction_Project/tree/main/backend/notebooks)
       
 ## OOPS design
 The code was written in using OOPs concepts for extracting the medical data from prescription and patient details documents.
 
+[Code](https://github.com/MirzaWaleed95/Data_Extraction_Project/tree/main/backend/src)
+
 ## Regular expression
 Using regular expression module we can match the patterns and extract the data we want from the files. For this project, analyst the medical files and as fact all the medical documents will follow same pattern, we wrote patterns that match only the required data. Before writing the python code, It is advisable to practise and match the patterns in regex 101 website.
 
+[regex101](https://regex101.com/)
+
 ## Test driven Development
 In this project test driven development methodology was used to develop the code. For testing pytest module was used. For all the methods and final result the test cases was designed and checked simultaneously while developing the code.
+
+[Test Cases](https://github.com/MirzaWaleed95/Data_Extraction_Project/tree/main/backend/tests)
 
 ## FastApi
 Used FastAPI for hosting the server of the project. FastApi, as name suggest is help us to develop fast and some other advantages are,
