@@ -11,13 +11,15 @@ To solve all these problems, we are building a program which can do the extracti
 Here, we are using the Python programming language and pytesseract google library for extracting the data and Regex module to process the data and get distilled desired output.
 
 ## Technologies used
-* Python
-* oops
-* Pdf2image module
-* Opencv
-* pytesseract
-* Regular expression
-* pytest
-* Postman
-* FastApi
+* Python <br />
+* oops <br />
+* Pdf2image module <br />
+* Opencv <br />
+* pytesseract <br />
+* Regular expression <br />
+* pytest <br />
+* Postman <br />
+* FastApi <br />
 * Workflow
+
+## Workflow
