@@ -114,7 +114,8 @@ Used FastAPI for hosting the server of the project. FastApi, as name suggest is 
 ## Postman
 As it is a backend project, not developed frontend part. For checking how the server responds for http requests, used postman to trigger http requests and tested the outcome.
 
-<img width="628" alt="postman_image" src="https://user-images.githubusercontent.com/108637079/188928441-c0c0805b-6842-420f-a6a1-7d8a2bab05b9.PNG">
+<img width="509" alt="postman_image" src="https://user-images.githubusercontent.com/108637079/188928733-bae5b7a2-028e-4d07-81ec-838ff7c166d8.PNG">
+
 
 
 
