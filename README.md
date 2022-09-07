@@ -1,3 +1,4 @@
+![workflow](https://user-images.githubusercontent.com/108637079/188907761-18938235-c9f4-42b5-945b-83279bebcb8c.jpg)
 # OCR based Medical Data Extraction Project
 
 ## Problem statement
