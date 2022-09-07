@@ -1,1 +1,1 @@
-# Data_Extraction_Project
+# OCR based Medical Data Extraction Project
