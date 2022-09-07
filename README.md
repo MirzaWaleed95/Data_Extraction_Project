@@ -34,26 +34,63 @@ Tried extracting data from source files without any processing, as they are not 
 ![dark_image](https://user-images.githubusercontent.com/108637079/188908642-2c7a5a18-1d0d-4b99-ada3-8aa3e501a14b.jpg)
 
 ## Extracted data from the above image
+    
 
-Dr John Smith, M.D
-2 Non-Important Street,
-New York, Phone (000)-111-2222
+      Dr John Smith, M.D
+      2 Non-Important Street,
+      New York, Phone (000)-111-2222
 
-Name: Maria Sharapova Date: 5/11/2022
+      Name: Maria Sharapova Date: 5/11/2022
 
-Address: 9 tennis court, new Russia, DC
+      Address: 9 tennis court, new Russia, DC
 
-—momennannenncmneneunnmnnnnninsissiyoinnitnahaadaanih issn earnttneenrenen:
+      —momennannenncmneneunnmnnnnninsissiyoinnitnahaadaanih issn earnttneenrenen:
 
-Prednisone 20 mg
-Lialda 2.4 gram
+      Prednisone 20 mg
+      Lialda 2.4 gram
 
-3 days,
+      3 days,
 
-or 1 month
+      or 1 month
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
+## Image processing
+we decided to preprocess the image using opencv module, before extracting data from them. For that we have first used normal thresholding and checked, which resulted in below image
+
+![filter_dark](https://user-images.githubusercontent.com/108637079/188912143-09f9894c-4553-4396-bd48-0cfd21206e7c.jpg)
+
+So, if there is any shadow or some noise, the normal thresholding fade out the area. which will result in loss of data.
+
+In the search of better approach of this problem, we have decided to use adaptive thresholding technique. In this technique, the image will be divided into sub image and the thresholding value will be different for all sub regions. And the end result of adaptive thresholding is much better compared to normal thresholding.
+
+![adaptive_filter_dark](https://user-images.githubusercontent.com/108637079/188912282-4bc8fde3-81e0-401c-b75c-557e990e2d01.jpg)
+
+<img src="https://your-image-url.type](https://user-images.githubusercontent.com/108637079/188912282-4bc8fde3-81e0-401c-b75c-557e990e2d01.jpg" width="500" height="500">
+
+
+## After preprocessing the image data extraction
+
+      Dr John Smith, M.D
+      2 Non-Important Street,
+      New York, Phone (000)-111-2222
+      
+      Name: Marta Sharapova Date: 5/11/2022
+      
+      Address: 9 tennis court, new Russia, DC
+      
+      K
+      
+      Prednisone 20 mg
+      Lialda 2.4 gram
+      
+      Directions:
+      
+      Prednisone, Taper 5 mg every 3 days,
+      Finish in 2.5 weeks a
+      Lialda - take 2 pill everyday for 1 month
+      
+## Notebook
+For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
+
+      
+
+
