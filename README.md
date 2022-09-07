@@ -64,9 +64,6 @@ In the search of better approach of this problem, we have decided to use adaptiv
 
 ![adaptive_filter_dark](https://user-images.githubusercontent.com/108637079/188912282-4bc8fde3-81e0-401c-b75c-557e990e2d01.jpg)
 
-<img src="https://your-image-url.type](https://user-images.githubusercontent.com/108637079/188912282-4bc8fde3-81e0-401c-b75c-557e990e2d01.jpg" width="500" height="500">
-
-
 ## After preprocessing the image data extraction
 
       Dr John Smith, M.D
@@ -92,5 +89,29 @@ In the search of better approach of this problem, we have decided to use adaptiv
 For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
 
       
+## OOPS design
+The code was written in using OOPs concepts for extracting the medical data from prescription and patient details documents.
 
+## Regular expression
+Using regular expression module we can match the patterns and extract the data we want from the files. For this project, analyst the medical files and as fact all the medical documents will follow same pattern, we wrote patterns that match only the required data. Before writing the python code, It is advisable to practise and match the patterns in regex 101 website.
 
+## Test driven Development
+In this project test driven development methodology was used to develop the code. For testing pytest module was used. For all the methods and final result the test cases was designed and checked simultaneously while developing the code.
+
+## FastApi
+Used FastAPI for hosting the server of the project. FastApi, as name suggest is help us to develop fast and some other advantages are,
+
+* In build Data validation <br/>
+* In build Documentation <br/>
+* Fast running and performance <br/>
+
+## Postman
+As it is a backend project, not developed frontend part. For checking how the server responds for http requests, used postman to trigger http requests and tested the outcome.
+
+## Result
+This backend functionality can be integrated into the Mr.X Analytics existing software and data can be extracted automatically. The extracted data may have some errors, the person who is performing the work has to correct it and submit the response.
+
+## Benefits
+* Mr.X Analytics can save at least of 30 secs for each document. It is small amount of time when looking for one document, but cumulatively it can save a tremendous amount of time which can help the company to complete more documents within the given time and make more profit <br/>
+* The company doesn't have to hire extra people in the season time. <br/>
+* As it is a combination of automation and manual the error will be very much low. <br/>
