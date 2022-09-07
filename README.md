@@ -31,6 +31,8 @@ For converting PDF to image, we have used pdf2image library.
 ## Without preprocessing extracting data
 Tried extracting data from source files without any processing, as they are not in proper format to be extracted, the extracted data was not as expected.
 
+https://github.com/MirzaWaleed95/Data_Extraction_Project/blob/main/backend/notebooks/dark_image.jpg
+
 ![dark_image](https://user-images.githubusercontent.com/108637079/188908642-2c7a5a18-1d0d-4b99-ada3-8aa3e501a14b.jpg)
 
 ## Extracted data from the above image
