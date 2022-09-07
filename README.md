@@ -20,7 +20,6 @@ Here, we are using the Python programming language and pytesseract google librar
 * pytest <br />
 * Postman <br />
 * FastApi <br />
-* Workflow
 
 ## Workflow
 ![workflow](https://user-images.githubusercontent.com/108637079/188907761-18938235-c9f4-42b5-945b-83279bebcb8c.jpg)
