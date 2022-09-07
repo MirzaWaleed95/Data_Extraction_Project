@@ -88,6 +88,7 @@ In the search of better approach of this problem, we have decided to use adaptiv
 ## Notebook
 For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
 
+[Notebooks](https://github.com/MirzaWaleed95/Data_Extraction_Project/tree/main/backend/notebooks).
       
 ## OOPS design
 The code was written in using OOPs concepts for extracting the medical data from prescription and patient details documents.
